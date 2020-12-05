@@ -1,0 +1,52 @@
+@import "breakpoints.scss";
+@import "common";
+@import "about";
+@import "customers";
+@import "features";
+@import "audience";
+@import "order";
+@import "footer";
+@import "header";
+@import "headline";
+@import "tips";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2b292d;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #2b292d;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.page {
+  width: 100%;
+
+  @include for-large-up {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
