@@ -287,8 +287,7 @@
 .audience__item-img {
   margin-top: 22px;
 }
-
-.user-card {
+.audience__user-card {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -300,19 +299,19 @@
   transition: all 0.5s;
   cursor: pointer;
 }
-.user-card:hover {
+.audience__user-card:hover {
   background-color: #3141c5;
   color: #fff;
 }
-.user-card:last-child {
+.audience__user-card:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 1400px) {
-  .user-card {
+  .audience__user-card {
     min-width: 262px;
     margin-left: 30px;
   }
-  .user-card:first-child {
+  .audience__user-card:first-child {
     margin-left: 0;
     margin-bottom: 0;
   }
