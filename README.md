@@ -9,7 +9,7 @@ npm i
 npm start
 
 Runs the app in the development mode.
-Open  to view in the browser.
+Open https://nexend.github.io/foundation-website/ to view in the browser.
 
 The page will reload if you make edits.
 
