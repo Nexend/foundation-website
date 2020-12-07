@@ -1,8 +1,8 @@
 .action__button {
-  background-color: #3040c4;
-  color: #fff;
   width: 160px;
   height: 48px;
+  background-color: #3040c4;
+  color: #fff;
   font-weight: 700;
   outline: none;
   border: none;
@@ -22,8 +22,8 @@
 }
 
 .about {
-  padding: 46px 15px;
   width: 100%;
+  padding: 46px 15px;
   background-color: #f4f5f7;
 }
 @media (min-width: 1400px) {
@@ -65,13 +65,13 @@
 }
 @media (min-width: 1400px) {
   .customers {
-    width: 1140px;
-    margin: auto;
-    padding: 30px 0 106px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 1140px;
+    margin: auto;
+    padding: 30px 0 106px;
   }
 }
 .customers__row {
@@ -79,20 +79,20 @@
 }
 @media (min-width: 1400px) {
   .customers__row {
-    border: none;
     flex: 1;
     justify-content: space-around;
+    border: none;
   }
 }
 .customers__item {
-  width: 107px;
-  height: 94px;
-  border-bottom: 1px solid #e3e3e3;
-  border-right: 1px solid #e3e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
+  width: 107px;
+  height: 94px;
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
 }
 @media (min-width: 1400px) {
   .customers__item {
@@ -108,8 +108,8 @@
 }
 @media (min-width: 1400px) {
   .customers__logo {
-    border: none;
     max-width: 100%;
+    border: none;
   }
 }
 
@@ -128,9 +128,9 @@
   }
 }
 .features__content {
+  display: flex;
   width: 1140px;
   margin: auto;
-  display: flex;
 }
 .features__column {
   width: 459px;
@@ -142,51 +142,51 @@
   color: #009b4d;
 }
 .features__title {
+  margin-top: 24px;
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.5px;
-  margin-top: 24px;
 }
 .features__description {
+  margin-top: 30px;
+  padding-bottom: 20px;
   font-size: 24px;
   line-height: 34px;
-  margin-top: 30px;
   border-bottom: 3px solid #3142c6;
-  padding-bottom: 20px;
 }
 .features__advantage-header {
-  margin-top: 22px;
   display: flex;
+  margin-top: 22px;
 }
 .features__advantage-title {
+  margin-left: 15px;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
   color: #3142c6;
-  margin-left: 15px;
 }
 .features__advantage-text {
   margin-top: 8px;
   line-height: 26px;
 }
 .features__advantage-item {
-  border-bottom: 1px solid #2b292d26;
-  margin-top: 21px;
-  padding-bottom: 22px;
   display: flex;
   align-items: center;
+  margin-top: 21px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #2b292d26;
 }
 .features__advantage-item-text {
+  margin-left: 15px;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  margin-left: 15px;
 }
 .features__left-decoration {
-  height: 166px;
   position: absolute;
   top: 258px;
+  height: 166px;
 }
 .features__banner {
   position: absolute;
@@ -194,8 +194,8 @@
 }
 
 .audience {
-  background-color: rgba(0, 161, 198, 0.07);
   padding: 50px 15px;
+  background-color: rgba(0, 161, 198, 0.07);
 }
 @media (min-width: 1400px) {
   .audience {
@@ -265,17 +265,17 @@
   }
 }
 .audience__content {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 @media (min-width: 1400px) {
   .audience__content {
-    flex-direction: row;
-    margin: 111px auto 0;
-    justify-content: space-around;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     width: 1139px;
+    margin: 111px auto 0;
   }
 }
 .audience__item-name {
@@ -294,8 +294,8 @@
   flex-direction: column;
   min-width: 290px;
   height: 300px;
-  background-color: #fff;
   margin-bottom: 15px;
+  background-color: #fff;
   border-radius: 8px;
   transition: all 0.5s;
   cursor: pointer;
@@ -309,8 +309,8 @@
 }
 @media (min-width: 1400px) {
   .user-card {
-    margin-left: 30px;
     min-width: 262px;
+    margin-left: 30px;
   }
   .user-card:first-child {
     margin-left: 0;
@@ -319,17 +319,17 @@
 }
 
 .order {
-  padding: 50px 15px;
-  background-color: #f4f5f7;
   display: flex;
   flex-direction: column;
+  padding: 50px 15px;
+  background-color: #f4f5f7;
 }
 @media (min-width: 1400px) {
   .order {
-    padding: 73px 0 72px 0;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px 0;
   }
 }
 .order__details {
@@ -341,22 +341,22 @@
 }
 @media (min-width: 1400px) {
   .order__illustration {
-    margin: 0;
     max-width: 269px;
+    margin: 0;
     margin-right: 121px;
   }
 }
 .order__title {
+  margin-top: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.3px;
-  margin-top: 40px;
 }
 .order__text {
+  margin-top: 18px;
   font-size: 24px;
   line-height: 34px;
-  margin-top: 18px;
 }
 .order__form {
   margin-top: 26px;
@@ -367,13 +367,13 @@
   }
 }
 .order__email {
+  width: 100%;
+  height: 48px;
   margin-top: 40px;
+  text-align: center;
   background: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  height: 48px;
-  width: 100%;
-  text-align: center;
   font-size: 18px;
   line-height: 13px;
 }
@@ -411,16 +411,16 @@
 }
 
 .footer {
-  margin-top: auto;
   display: flex;
   flex-direction: column;
+  margin-top: auto;
 }
 .footer__description {
   display: none;
-  line-height: 26px;
-  margin-top: 26px;
-  opacity: 0.6;
   width: 360px;
+  margin-top: 26px;
+  line-height: 26px;
+  opacity: 0.6;
 }
 @media (min-width: 1400px) {
   .footer__description {
@@ -428,11 +428,11 @@
   }
 }
 .footer__line {
-  border-top: 1px solid #2b292d;
   width: 100%;
-  opacity: 0.1;
   margin: 0;
   margin-top: 40px;
+  border-top: 1px solid #2b292d;
+  opacity: 0.1;
 }
 @media (min-width: 1400px) {
   .footer__line {
@@ -450,24 +450,24 @@
 }
 
 .footer-navigation {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 @media (min-width: 1400px) {
   .footer-navigation {
-    width: 1140px;
-    margin: 0 auto;
-    height: 338px;
     display: flex;
     flex-direction: row;
+    width: 1140px;
+    height: 338px;
+    margin: 0 auto;
   }
 }
 
 .downloads {
-  margin: 25px 15px 0;
   display: flex;
   justify-content: center;
+  margin: 25px 15px 0;
 }
 @media (min-width: 1400px) {
   .downloads {
@@ -481,16 +481,16 @@
 }
 
 .additional-navigation {
-  margin: 0 15px;
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
 }
 @media (min-width: 1400px) {
   .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
     display: flex;
     flex-direction: row;
+    margin-top: 60px;
+    margin-left: auto;
   }
 }
 .additional-navigation__column {
@@ -510,40 +510,39 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  margin: 0;
 }
 .nav-links__list {
+  margin-top: 18px;
   line-height: 30px;
   opacity: 0.6;
-  margin-top: 18px;
 }
 
 .footer-links {
-  margin-left: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 @media (min-width: 1400px) {
   .footer-links {
-    width: 1140px;
-    margin: 0 auto;
-    height: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
   }
 }
 
 .terms {
+  margin-top: 30px;
   line-height: 22px;
   opacity: 0.6;
   font-size: 14px;
-  margin-top: 30px;
 }
 @media (min-width: 1400px) {
   .terms {
-    line-height: 50px;
     margin-top: 0;
+    line-height: 50px;
   }
 }
 .terms__item {
@@ -603,19 +602,19 @@
 }
 
 .header {
-  height: 64px;
-  width: 100%;
-  background-color: #fff;
   display: flex;
   align-items: center;
+  width: 100%;
+  height: 64px;
   padding-left: 15px;
+  background-color: #fff;
 }
 @media (min-width: 1400px) {
   .header {
+    display: flex;
     width: 1140px;
     height: 62px;
     margin: auto;
-    display: flex;
     background-color: transparent;
   }
 }
@@ -641,10 +640,10 @@
   }
 }
 .header__menu-icon {
+  display: inline-block;
   width: 18px;
   height: 13px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
-  display: inline-block;
 }
 
 .logo {
@@ -705,8 +704,8 @@
   font-weight: 700;
 }
 .navigation__arrow {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   display: inline-block;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   height: 5px;
   width: 8px;
   margin-left: 11px;
@@ -718,10 +717,10 @@
 }
 @media (min-width: 1400px) {
   .headline {
+    display: flex;
     width: 1140px;
     margin: auto;
     margin-top: 84px;
-    display: flex;
     padding-bottom: 77px;
   }
 }
@@ -730,8 +729,8 @@
 }
 @media (min-width: 1400px) {
   .headline__content {
-    margin: 0;
     position: absolute;
+    margin: 0;
     z-index: 1;
   }
 }
@@ -757,9 +756,9 @@
 }
 @media (min-width: 1400px) {
   .headline__title {
-    margin: 0;
     width: 754px;
     height: 165px;
+    margin: 0;
     font-weight: 700;
     font-size: 80px;
     line-height: 78px;
@@ -775,13 +774,13 @@
 }
 @media (min-width: 1400px) {
   .headline__description {
-    margin-top: 34px;
     width: 456px;
     height: 102px;
+    margin-top: 34px;
+    margin-bottom: 0;
     font-size: 24px;
     line-height: 34px;
     z-index: 1;
-    margin-bottom: 0;
   }
 }
 .headline__actions {
@@ -794,15 +793,15 @@
   }
 }
 .headline__learn-more-btn {
-  background-color: #fff;
-  color: #3040c4;
   width: 158px;
   height: 48px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: #3040c4;
   font-weight: 700;
   outline: none;
   border: none;
   border-radius: 2px;
-  margin-top: 15px;
 }
 @media (min-width: 1400px) {
   .headline__learn-more-btn {
@@ -848,21 +847,21 @@
   line-height: 34px;
 }
 .tip__decoration {
-  margin: 0;
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  margin-bottom: 40px;
 }
 .tip__image {
-  margin-top: 30px;
   max-width: 100%;
+  margin-top: 30px;
 }
 .tip__image-caption {
   margin-top: 20px;
+  text-align: center;
   font-size: 14px;
   line-height: 22px;
-  text-align: center;
   color: rgba(43, 41, 45, 0.6);
 }
 
@@ -906,11 +905,11 @@ ul {
 }
 @media (min-width: 1400px) {
   .page {
-    max-width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: auto;
   }
 }
 

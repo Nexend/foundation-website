@@ -10,9 +10,9 @@
   }
 
   &__content {
+    display: flex;
     width: 1140px;
     margin: auto;
-    display: flex;
   }
   &__column {
     width: 459px;
@@ -24,51 +24,51 @@
     color: #009b4d;
   }
   &__title {
+    margin-top: 24px;
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
-    margin-top: 24px;
   }
   &__description {
+    margin-top: 30px;
+    padding-bottom: 20px;
     font-size: 24px;
     line-height: 34px;
-    margin-top: 30px;
     border-bottom: 3px solid #3142c6;
-    padding-bottom: 20px;
   }
   &__advantage-header {
-    margin-top: 22px;
     display: flex;
+    margin-top: 22px;
   }
   &__advantage-title {
+    margin-left: 15px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     color: #3142c6;
-    margin-left: 15px;
   }
   &__advantage-text {
     margin-top: 8px;
     line-height: 26px;
   }
   &__advantage-item {
-    border-bottom: 1px solid #2b292d26;
-    margin-top: 21px;
-    padding-bottom: 22px;
     display: flex;
     align-items: center;
+    margin-top: 21px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #2b292d26;
   }
   &__advantage-item-text {
+    margin-left: 15px;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    margin-left: 15px;
   }
   &__left-decoration {
-    height: 166px;
     position: absolute;
     top: 258px;
+    height: 166px;
   }
   &__banner {
     position: absolute;
